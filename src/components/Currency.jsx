@@ -19,7 +19,7 @@ const Currency = () => {
     }
 
     useEffect(() => {
-        axios.get(`https://api.currencyfreaks.com/latest?apikey=6449304f23f1410e91867aa6c27e2ec3&symbols=${ccy}`)
+        axios.get(`https://api.currencyfreaks.com/latest?apikey=cd6d50b17616430390a0f7afa3af67f8&symbols=${ccy}`)
             .then(({ data }) => {
                 setCurrencyRates(data.rates)
                 setBaseCcyRates(data.base)
