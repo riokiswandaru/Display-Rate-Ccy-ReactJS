@@ -1,0 +1,13 @@
+body{
+    background-color: orange;  
+    color: white; 
+    text-align: center;
+}
+
+table{
+    margin: 150px auto 30px auto;
+}
+
+td{
+    padding: 10px;
+}
